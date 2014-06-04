@@ -1,3 +1,8 @@
+**NOTE:** This version of *protobuf* is for use with `Canteen <https://pypi.python.org/sgammon/canteen>`_, a
+microframework with integrated ProtoRPC support. The original (non-*Canteen*) source is available
+`here <https://code.google.com/p/protobuf/>`_.
+
+
 Protocol Buffers - Google's data interchange format
 Copyright 2008 Google Inc.
 
