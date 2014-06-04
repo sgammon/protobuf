@@ -155,7 +155,7 @@ if __name__ == '__main__':
         libraries = [ "protobuf" ]))
 
   setup(name = 'protobuf',
-        version = '2.5.0',
+        version = '2.5.2-canteen',
         packages = [ 'google' ],
         namespace_packages = [ 'google' ],
         test_suite = 'setup.MakeTestSuite',
@@ -181,18 +181,15 @@ if __name__ == '__main__':
           'google.protobuf.reflection',
           'google.protobuf.service',
           'google.protobuf.service_reflection',
-          'google.protobuf.text_format',
-          'google.net.proto.ProtocolBuffer',
-          'google.net.proto',
-          'google.net' ],
+          'google.protobuf.text_format' ],
         cmdclass = { 'clean': clean, 'build_py': build_py },
         install_requires = ['setuptools'],
         ext_modules = ext_module_list,
-        url = 'http://code.google.com/p/protobuf/',
-        maintainer = maintainer_email,
-        maintainer_email = 'protobuf@googlegroups.com',
+        url = 'https://github.com/sgammon/protobuf',
+        maintainer = 'Google & Sam Gammon',
+        maintainer_email = 'sam+protobuf@momentum.io',
         license = 'New BSD License',
         description = 'Protocol Buffers',
         long_description =
-          "Protocol Buffers are Google's data interchange format.",
+          "Protocol Buffers are Google's data interchange format, customized for use with Canteen.",
         )
