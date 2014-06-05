@@ -1,6 +1,10 @@
-README.txt
+README.rst
+setup.cfg
 setup.py
 google/__init__.py
+google/net/__init__.py
+google/net/proto/ProtocolBuffer.py
+google/net/proto/__init__.py
 google/protobuf/__init__.py
 google/protobuf/descriptor.py
 google/protobuf/descriptor_database.py
@@ -25,9 +29,6 @@ google/protobuf/internal/message_listener.py
 google/protobuf/internal/python_message.py
 google/protobuf/internal/type_checkers.py
 google/protobuf/internal/wire_format.py
-google/net/__init__.py
-google/net/proto/__init__.py
-google/net/proto/ProtocolBuffer.py
 protobuf.egg-info/PKG-INFO
 protobuf.egg-info/SOURCES.txt
 protobuf.egg-info/dependency_links.txt

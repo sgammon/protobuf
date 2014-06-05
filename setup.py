@@ -164,6 +164,7 @@ if __name__ == '__main__':
           'google',
           'google.net',
           'google.net.proto',
+          'google.net.proto.ProtocolBuffer',
           'google.protobuf.internal.api_implementation',
           'google.protobuf.internal.containers',
           'google.protobuf.internal.cpp_message',

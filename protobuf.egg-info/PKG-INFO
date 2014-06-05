@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: protobuf
-Version: 2.5.0
+Version: 2.5.2-canteen
 Summary: Protocol Buffers
-Home-page: http://code.google.com/p/protobuf/
-Author: protobuf@googlegroups.com
-Author-email: protobuf@googlegroups.com
+Home-page: https://github.com/sgammon/protobuf
+Author: Google & Sam Gammon
+Author-email: sam+protobuf@momentum.io
 License: New BSD License
-Description: Protocol Buffers are Google's data interchange format.
+Description: Protocol Buffers are Google's data interchange format, customized for use with Canteen.
 Platform: UNKNOWN
